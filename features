@@ -1,0 +1,21 @@
+Features available with the Sign In Canada acceptance platform (Beta version)
+
+I)    Common sign in screen for consistent user experience
+II)   Integrated Credential Service Providers (CSPs):
+    1)	existing GCKey
+    2)	existing Credential Broker Service (banks)
+    3)	Social credentials (Microsoft and Google)
+III)	Integrated Identity Provider Services (IDPs):
+    1)	Alberta (My Alberta Digital ID)
+    2)	British Columbia (BC Services Card)
+IV)	  Support for new protocols (e.g. OpenID Connect (OIDC)) and technologies  
+V)	  Continued support for existing software/protocols (SAML) and ability to “translate” OIDC to SAML. This means Relying Parties (RPs) would not be forced to change/upgrade their applications in order to consume OIDC-based IDPs or credentials.  
+VI)	  Privacy: Identity of RP (dept or agency) is hidden from proxied credential service providers (CSPS) and identity of CSP is hidden from RP (continuation of existing “blinding” requirements for Credential Broker Service)
+VII)	Seamless user experience for existing clients as RPs transition to Sign In Canada (i.e. no disruption to clients or need to re-enrol in services)
+VIII)	Ability for clients to “switch credentials” without impacting their enrolment in a program or service
+IX)	  Ability for RPs to customize the chooser page and to determine the list of credentials and Levels of Assurance (as per Guideline on Identity Assurance) offered to clients for sign-in. (E.g. some RPs may accept social media credentials, only CRA clients would be given the option to sign in with a CRA LoginID, etc.)
+X)	  Single Sign On (SSO) supported (i.e. several applications can be accessed with the client being prompted only once for their username and password) 
+XI)	  Global logout supported (i.e. if several sessions are open with different RPs, when the client initiates a logout of one application, a logout request is distributed across all open sessions)
+XII)	Integrates GCKey, banking credentials, and trusted digital identities issued by other jurisdictions (e.g. Provinces and Territories). Sign In Canada will streamline the sign-in process by eliminating the need for users to hold multiple digital identities and repeatedly prove who they are, which means that they will have more control over their digital lives.
+XIII)	Supports a pan-Canadian approach to digital identity and the federated use and acceptance of trusted digital identities across jurisdictions and through common platforms, where individuals and businesses can sign in once with their trusted digital identity to access services instantly, anywhere, and anytime.
+XIV)	Sign In Canada is capable of evolving and scaling, and is compatible with the platforms of today and emerging technologies, such as block chain-based identity management approaches, trust-minimized networks (also known as zero-trust networks), and digital wallets.
